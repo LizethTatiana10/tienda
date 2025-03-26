@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="shortcut icon" href="./imagenes/logo.avif" type="imagenes/x-icon">
+</head>
+<body>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <a href="index.html">inicio</a>
+        <a href="prendas.html">prendas</a>
+        <a href="nosotros.html">nosotros</a>
+    </div>
+    <div align="center">
+        <h1>NUESTRO CONTACTO</h1>
+        <p>contactanos para darte una mejor accesoria y responder a todas tu dudas y preguntas, "pregunta sin compromiso"</p>
+        <img src="./imagenes/contacto.jpg" alt="contacto" width="50%" height="50%">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52301.153918354976!2d-75.67637957832027!3d6.268428499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44294a3ac72d5f%3A0x35ecc68cd8a326f7!2sVORELA%20Cedemoda!5e1!3m2!1ses-419!2sco!4v1742969444199!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div style=" margin-top: 20px; margin-bottom: 20px;">
+        <form>
+            <label>Nombre</label><br>
+            <input required name="Nombre" type="text">
+            <br>
+            <label>Apellido</label><br>
+            <input required name="Apellido" type="text">
+            <br>
+            <label>Numero de celular</label>
+            <br> 
+            <input required name="celular" type="cel">
+             <br>
+            <label > Edad</label><br>
+            <input required name="edad" type="number" min="14" max="45"> 
+            <br>
+            <label>Correo</label><br>
+            <input required name="correo" type="email">
+             <br>
+            <label> Fecha de Nacimiento</label><br>
+            <input type="date" min="1945-01-01" max="2008-12-31">
+            <br>
+            <label>Genero</label><br>
+            <input type="radio" name="genero" value="Masculino"> Masculino
+            <input type="radio" name="genero" value="Femenino"> Femenino
+            <input type="radio" name="genero" value="no decir"> Prefiero no decirlo
+            <br>
+            <select name="Contactos">
+                <br>
+                <option value="instagram">Instagram</option>
+                <br>
+                <option value="whatsaap"> whatsAAP</option>
+                <br>
+                <option value="facebook"> Facebbok</option>
+                <br>
+            </select> <br>
+            <label>atencion al cliente</label>
+            <textarea name="atencion al cliente" ></textarea> <br>
+
+            <button type="submit"> Enviar</button>
+            <br>
+            <button type="reset">Borrar</button>
+            <br>
+        </form>
+     </div>
+</body>
+</html>
