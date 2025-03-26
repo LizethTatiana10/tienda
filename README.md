@@ -1,0 +1,2 @@
+# tienda
+hasta controlador
